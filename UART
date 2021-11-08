@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T10:19:56.837Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="RKygoUnA1Cp0o6VwdqKL" version="15.7.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-08T10:25:41.603Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="6xJM0MCCQeQ9qI8J4pYX" version="15.7.0" type="github" pages="2">
   <diagram id="9deVU0NO2dzBokBc8nXu" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -303,6 +303,15 @@
       <root>
         <mxCell id="G23RjcYUj-sL8OBwrAod-0" />
         <mxCell id="G23RjcYUj-sL8OBwrAod-1" parent="G23RjcYUj-sL8OBwrAod-0" />
+        <mxCell id="G23RjcYUj-sL8OBwrAod-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="G23RjcYUj-sL8OBwrAod-1">
+          <mxGeometry x="40" y="80" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G23RjcYUj-sL8OBwrAod-3" value="TRANSMITTING UART" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="G23RjcYUj-sL8OBwrAod-1">
+          <mxGeometry x="320" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G23RjcYUj-sL8OBwrAod-4" value="(start bit) 0 1 0 0 1&amp;nbsp; 0 0 1 (parity bit) (end bit)&lt;br&gt;&lt;br&gt;&lt;br&gt;DATA FRAME" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="G23RjcYUj-sL8OBwrAod-1">
+          <mxGeometry x="50" y="100" width="240" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
